@@ -5,10 +5,10 @@
 
 int main() {
 
-   mciSendString("open \"duck.mp3\" type mpegvideo alias mp3", NULL, 0, NULL);
+	mciSendString("open \"duck.mp3\" type mpegvideo alias mp3", NULL, 0, NULL);
 
-   mciSendString("play mp3 wait", NULL, 0, NULL);
+	mciSendString("play mp3 wait", NULL, 0, NULL);
 
-   return 0;
+	return 0;
 }
 
