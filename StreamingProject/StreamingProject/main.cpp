@@ -1,6 +1,5 @@
-#include <Mmsystem.h>
-#include <mciapi.h>
-//these two headers are already included in the <Windows.h> header
+#include <Windows.h>
+
 #pragma comment(lib, "Winmm.lib")
 
 int main() {
